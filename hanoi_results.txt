@@ -1,0 +1,1586 @@
+>>> test_final_models_hanoi(4,3)
+2022-05-07 23:50:58.085912: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-05-07 23:50:58.085975: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-05-07 23:50:58.086013: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (carlos): /proc/driver/nvidia/version does not exist
+2022-05-07 23:50:58.086304: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+#### model=DNN_final_2x2x2_nr it=298 ####
+     Expanded 3 states
+    N=5 lambda=0.3 subproblem_disks=1 optimal_length=1
+    found solution in 0.28804945945739746s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=0.3 subproblem_disks=2 optimal_length=3
+    found solution in 0.14789414405822754s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=0.3 subproblem_disks=3 optimal_length=7
+    found solution in 0.2961575984954834s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 77 states
+    N=5 lambda=0.3 subproblem_disks=4 optimal_length=15
+    found solution in 0.7088110446929932s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=5 lambda=0.5 subproblem_disks=1 optimal_length=1
+    found solution in 0.07490420341491699s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=0.5 subproblem_disks=2 optimal_length=3
+    found solution in 0.1471402645111084s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=0.5 subproblem_disks=3 optimal_length=7
+    found solution in 0.28699445724487305s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 74 states
+    N=5 lambda=0.5 subproblem_disks=4 optimal_length=15
+    found solution in 0.6571335792541504s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=5 lambda=0.7 subproblem_disks=1 optimal_length=1
+    found solution in 0.07173585891723633s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=0.7 subproblem_disks=2 optimal_length=3
+    found solution in 0.1423015594482422s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=0.7 subproblem_disks=3 optimal_length=7
+    found solution in 0.27826666831970215s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 74 states
+    N=5 lambda=0.7 subproblem_disks=4 optimal_length=15
+    found solution in 0.6615242958068848s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=5 lambda=1 subproblem_disks=1 optimal_length=1
+    found solution in 0.07388544082641602s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=1 subproblem_disks=2 optimal_length=3
+    found solution in 0.14841008186340332s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=1 subproblem_disks=3 optimal_length=7
+    found solution in 0.26836514472961426s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 73 states
+    N=5 lambda=1 subproblem_disks=4 optimal_length=15
+    found solution in 0.654954195022583s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=7 lambda=0.3 subproblem_disks=1 optimal_length=1
+    found solution in 0.07671689987182617s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=0.3 subproblem_disks=2 optimal_length=3
+    found solution in 0.14207196235656738s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=0.3 subproblem_disks=3 optimal_length=7
+    found solution in 0.2794928550720215s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 76 states
+    N=7 lambda=0.3 subproblem_disks=4 optimal_length=15
+    found solution in 0.6605169773101807s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=7 lambda=0.5 subproblem_disks=1 optimal_length=1
+    found solution in 0.07604312896728516s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=0.5 subproblem_disks=2 optimal_length=3
+    found solution in 0.15291881561279297s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=0.5 subproblem_disks=3 optimal_length=7
+    found solution in 0.30996131896972656s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 73 states
+    N=7 lambda=0.5 subproblem_disks=4 optimal_length=15
+    found solution in 0.613487958908081s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=7 lambda=0.7 subproblem_disks=1 optimal_length=1
+    found solution in 0.07211875915527344s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=0.7 subproblem_disks=2 optimal_length=3
+    found solution in 0.14513111114501953s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=0.7 subproblem_disks=3 optimal_length=7
+    found solution in 0.28612303733825684s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 73 states
+    N=7 lambda=0.7 subproblem_disks=4 optimal_length=15
+    found solution in 0.6293470859527588s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=7 lambda=1 subproblem_disks=1 optimal_length=1
+    found solution in 0.07257437705993652s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=1 subproblem_disks=2 optimal_length=3
+    found solution in 0.14320707321166992s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=1 subproblem_disks=3 optimal_length=7
+    found solution in 0.2838103771209717s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 73 states
+    N=7 lambda=1 subproblem_disks=4 optimal_length=15
+    found solution in 0.6072478294372559s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+
+#### model=DNN_final_2x2x2_nr it=334 ####
+     Expanded 3 states
+    N=5 lambda=0.3 subproblem_disks=1 optimal_length=1
+    found solution in 0.1930227279663086s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=0.3 subproblem_disks=2 optimal_length=3
+    found solution in 0.14662432670593262s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=0.3 subproblem_disks=3 optimal_length=7
+    found solution in 0.2729969024658203s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 87 states
+    N=5 lambda=0.3 subproblem_disks=4 optimal_length=15
+    found solution in 0.8187301158905029s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=5 lambda=0.5 subproblem_disks=1 optimal_length=1
+    found solution in 0.07678675651550293s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=0.5 subproblem_disks=2 optimal_length=3
+    found solution in 0.15088558197021484s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=0.5 subproblem_disks=3 optimal_length=7
+    found solution in 0.29580020904541016s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 87 states
+    N=5 lambda=0.5 subproblem_disks=4 optimal_length=15
+    found solution in 0.8675999641418457s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=5 lambda=0.7 subproblem_disks=1 optimal_length=1
+    found solution in 0.08886313438415527s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=0.7 subproblem_disks=2 optimal_length=3
+    found solution in 0.17354846000671387s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=0.7 subproblem_disks=3 optimal_length=7
+    found solution in 0.30036306381225586s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 87 states
+    N=5 lambda=0.7 subproblem_disks=4 optimal_length=15
+    found solution in 0.7941479682922363s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=5 lambda=1 subproblem_disks=1 optimal_length=1
+    found solution in 0.07237744331359863s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=1 subproblem_disks=2 optimal_length=3
+    found solution in 0.1398606300354004s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=1 subproblem_disks=3 optimal_length=7
+    found solution in 0.2950410842895508s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 86 states
+    N=5 lambda=1 subproblem_disks=4 optimal_length=15
+    found solution in 0.7854945659637451s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=7 lambda=0.3 subproblem_disks=1 optimal_length=1
+    found solution in 0.0708456039428711s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=0.3 subproblem_disks=2 optimal_length=3
+    found solution in 0.1457653045654297s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=0.3 subproblem_disks=3 optimal_length=7
+    found solution in 0.40909528732299805s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 76 states
+    N=7 lambda=0.3 subproblem_disks=4 optimal_length=15
+    found solution in 0.6459674835205078s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=7 lambda=0.5 subproblem_disks=1 optimal_length=1
+    found solution in 0.07886981964111328s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=0.5 subproblem_disks=2 optimal_length=3
+    found solution in 0.14086294174194336s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=0.5 subproblem_disks=3 optimal_length=7
+    found solution in 0.28134965896606445s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 76 states
+    N=7 lambda=0.5 subproblem_disks=4 optimal_length=15
+    found solution in 0.6582934856414795s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=7 lambda=0.7 subproblem_disks=1 optimal_length=1
+    found solution in 0.07492637634277344s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=0.7 subproblem_disks=2 optimal_length=3
+    found solution in 0.14757084846496582s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=0.7 subproblem_disks=3 optimal_length=7
+    found solution in 0.30008673667907715s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 76 states
+    N=7 lambda=0.7 subproblem_disks=4 optimal_length=15
+    found solution in 0.717146635055542s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=7 lambda=1 subproblem_disks=1 optimal_length=1
+    found solution in 0.07530617713928223s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=1 subproblem_disks=2 optimal_length=3
+    found solution in 0.15086627006530762s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=1 subproblem_disks=3 optimal_length=7
+    found solution in 0.3262298107147217s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 76 states
+    N=7 lambda=1 subproblem_disks=4 optimal_length=15
+    found solution in 0.7054643630981445s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+
+#### model=DNN_final_2x2x2_nr it=346 ####
+     Expanded 3 states
+    N=5 lambda=0.3 subproblem_disks=1 optimal_length=1
+    found solution in 0.19236397743225098s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=0.3 subproblem_disks=2 optimal_length=3
+    found solution in 0.15865135192871094s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=0.3 subproblem_disks=3 optimal_length=7
+    found solution in 0.2850072383880615s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 87 states
+    N=5 lambda=0.3 subproblem_disks=4 optimal_length=15
+    found solution in 0.753908634185791s length=19 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 3 states
+    N=5 lambda=0.5 subproblem_disks=1 optimal_length=1
+    found solution in 0.0717160701751709s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=0.5 subproblem_disks=2 optimal_length=3
+    found solution in 0.13906621932983398s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=0.5 subproblem_disks=3 optimal_length=7
+    found solution in 0.28571605682373047s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 88 states
+    N=5 lambda=0.5 subproblem_disks=4 optimal_length=15
+    found solution in 0.7589411735534668s length=19 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 3 states
+    N=5 lambda=0.7 subproblem_disks=1 optimal_length=1
+    found solution in 0.07158899307250977s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=0.7 subproblem_disks=2 optimal_length=3
+    found solution in 0.15346384048461914s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=0.7 subproblem_disks=3 optimal_length=7
+    found solution in 0.28343963623046875s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 88 states
+    N=5 lambda=0.7 subproblem_disks=4 optimal_length=15
+    found solution in 0.805617094039917s length=19 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 3 states
+    N=5 lambda=1 subproblem_disks=1 optimal_length=1
+    found solution in 0.07486820220947266s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=1 subproblem_disks=2 optimal_length=3
+    found solution in 0.14688682556152344s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=1 subproblem_disks=3 optimal_length=7
+    found solution in 0.29437828063964844s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 88 states
+    N=5 lambda=1 subproblem_disks=4 optimal_length=15
+    found solution in 0.917172908782959s length=19 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 3 states
+    N=7 lambda=0.3 subproblem_disks=1 optimal_length=1
+    found solution in 0.07964825630187988s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=0.3 subproblem_disks=2 optimal_length=3
+    found solution in 0.14381074905395508s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=0.3 subproblem_disks=3 optimal_length=7
+    found solution in 0.30463457107543945s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 76 states
+    N=7 lambda=0.3 subproblem_disks=4 optimal_length=15
+    found solution in 0.7162415981292725s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=7 lambda=0.5 subproblem_disks=1 optimal_length=1
+    found solution in 0.08579587936401367s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=0.5 subproblem_disks=2 optimal_length=3
+    found solution in 0.15390300750732422s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=0.5 subproblem_disks=3 optimal_length=7
+    found solution in 0.31518101692199707s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 76 states
+    N=7 lambda=0.5 subproblem_disks=4 optimal_length=15
+    found solution in 0.739983081817627s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=7 lambda=0.7 subproblem_disks=1 optimal_length=1
+    found solution in 0.07702326774597168s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=0.7 subproblem_disks=2 optimal_length=3
+    found solution in 0.1637411117553711s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=0.7 subproblem_disks=3 optimal_length=7
+    found solution in 0.36374330520629883s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 76 states
+    N=7 lambda=0.7 subproblem_disks=4 optimal_length=15
+    found solution in 1.0603086948394775s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=7 lambda=1 subproblem_disks=1 optimal_length=1
+    found solution in 0.11398053169250488s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=1 subproblem_disks=2 optimal_length=3
+    found solution in 0.1714487075805664s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=1 subproblem_disks=3 optimal_length=7
+    found solution in 0.39562129974365234s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 76 states
+    N=7 lambda=1 subproblem_disks=4 optimal_length=15
+    found solution in 0.7746925354003906s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+
+#### model=DNN_final_2x2x2_nr it=368 ####
+     Expanded 3 states
+    N=5 lambda=0.3 subproblem_disks=1 optimal_length=1
+    found solution in 0.33905720710754395s length=1 path=[(0, 2, 0)]
+     Expanded 8 states
+    N=5 lambda=0.3 subproblem_disks=2 optimal_length=3
+    found solution in 0.19941067695617676s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 22 states
+    N=5 lambda=0.3 subproblem_disks=3 optimal_length=7
+    found solution in 0.32760024070739746s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 88 states
+    N=5 lambda=0.3 subproblem_disks=4 optimal_length=15
+    found solution in 0.767869234085083s length=19 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 3 states
+    N=5 lambda=0.5 subproblem_disks=1 optimal_length=1
+    found solution in 0.06785058975219727s length=1 path=[(0, 2, 0)]
+     Expanded 8 states
+    N=5 lambda=0.5 subproblem_disks=2 optimal_length=3
+    found solution in 0.13720321655273438s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 22 states
+    N=5 lambda=0.5 subproblem_disks=3 optimal_length=7
+    found solution in 0.27321600914001465s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 86 states
+    N=5 lambda=0.5 subproblem_disks=4 optimal_length=15
+    found solution in 0.7508041858673096s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=5 lambda=0.7 subproblem_disks=1 optimal_length=1
+    found solution in 0.07710933685302734s length=1 path=[(0, 2, 0)]
+     Expanded 8 states
+    N=5 lambda=0.7 subproblem_disks=2 optimal_length=3
+    found solution in 0.14066767692565918s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 22 states
+    N=5 lambda=0.7 subproblem_disks=3 optimal_length=7
+    found solution in 0.2811732292175293s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 86 states
+    N=5 lambda=0.7 subproblem_disks=4 optimal_length=15
+    found solution in 0.7956604957580566s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=5 lambda=1 subproblem_disks=1 optimal_length=1
+    found solution in 0.08050227165222168s length=1 path=[(0, 2, 0)]
+     Expanded 8 states
+    N=5 lambda=1 subproblem_disks=2 optimal_length=3
+    found solution in 0.15744805335998535s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 22 states
+    N=5 lambda=1 subproblem_disks=3 optimal_length=7
+    found solution in 0.28937268257141113s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 87 states
+    N=5 lambda=1 subproblem_disks=4 optimal_length=15
+    found solution in 0.7767701148986816s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=7 lambda=0.3 subproblem_disks=1 optimal_length=1
+    found solution in 0.07256460189819336s length=1 path=[(0, 2, 0)]
+     Expanded 8 states
+    N=7 lambda=0.3 subproblem_disks=2 optimal_length=3
+    found solution in 0.14238715171813965s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 22 states
+    N=7 lambda=0.3 subproblem_disks=3 optimal_length=7
+    found solution in 0.4462735652923584s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 75 states
+    N=7 lambda=0.3 subproblem_disks=4 optimal_length=15
+    found solution in 0.5951025485992432s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=7 lambda=0.5 subproblem_disks=1 optimal_length=1
+    found solution in 0.07387447357177734s length=1 path=[(0, 2, 0)]
+     Expanded 8 states
+    N=7 lambda=0.5 subproblem_disks=2 optimal_length=3
+    found solution in 0.14455246925354004s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 22 states
+    N=7 lambda=0.5 subproblem_disks=3 optimal_length=7
+    found solution in 0.3011941909790039s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 75 states
+    N=7 lambda=0.5 subproblem_disks=4 optimal_length=15
+    found solution in 0.6309001445770264s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=7 lambda=0.7 subproblem_disks=1 optimal_length=1
+    found solution in 0.07595229148864746s length=1 path=[(0, 2, 0)]
+     Expanded 8 states
+    N=7 lambda=0.7 subproblem_disks=2 optimal_length=3
+    found solution in 0.15541720390319824s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 22 states
+    N=7 lambda=0.7 subproblem_disks=3 optimal_length=7
+    found solution in 0.3206062316894531s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 75 states
+    N=7 lambda=0.7 subproblem_disks=4 optimal_length=15
+    found solution in 0.6414542198181152s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=7 lambda=1 subproblem_disks=1 optimal_length=1
+    found solution in 0.07423663139343262s length=1 path=[(0, 2, 0)]
+     Expanded 8 states
+    N=7 lambda=1 subproblem_disks=2 optimal_length=3
+    found solution in 0.15234875679016113s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 22 states
+    N=7 lambda=1 subproblem_disks=3 optimal_length=7
+    found solution in 0.288071870803833s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 75 states
+    N=7 lambda=1 subproblem_disks=4 optimal_length=15
+    found solution in 0.6263296604156494s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+
+#### model=DNN_final_2x2x2_nr it=452 ####
+     Expanded 3 states
+    N=5 lambda=0.3 subproblem_disks=1 optimal_length=1
+    found solution in 0.20385527610778809s length=1 path=[(0, 2, 0)]
+     Expanded 8 states
+    N=5 lambda=0.3 subproblem_disks=2 optimal_length=3
+    found solution in 0.15745162963867188s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 23 states
+    N=5 lambda=0.3 subproblem_disks=3 optimal_length=7
+    found solution in 0.2968764305114746s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 84 states
+    N=5 lambda=0.3 subproblem_disks=4 optimal_length=15
+    found solution in 0.7804920673370361s length=19 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 3 states
+    N=5 lambda=0.5 subproblem_disks=1 optimal_length=1
+    found solution in 0.08048033714294434s length=1 path=[(0, 2, 0)]
+     Expanded 8 states
+    N=5 lambda=0.5 subproblem_disks=2 optimal_length=3
+    found solution in 0.14561152458190918s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 23 states
+    N=5 lambda=0.5 subproblem_disks=3 optimal_length=7
+    found solution in 0.2919020652770996s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 86 states
+    N=5 lambda=0.5 subproblem_disks=4 optimal_length=15
+    found solution in 0.7724993228912354s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=5 lambda=0.7 subproblem_disks=1 optimal_length=1
+    found solution in 0.07269883155822754s length=1 path=[(0, 2, 0)]
+     Expanded 8 states
+    N=5 lambda=0.7 subproblem_disks=2 optimal_length=3
+    found solution in 0.15131783485412598s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 23 states
+    N=5 lambda=0.7 subproblem_disks=3 optimal_length=7
+    found solution in 0.28719043731689453s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 84 states
+    N=5 lambda=0.7 subproblem_disks=4 optimal_length=15
+    found solution in 0.7392609119415283s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=5 lambda=1 subproblem_disks=1 optimal_length=1
+    found solution in 0.07419538497924805s length=1 path=[(0, 2, 0)]
+     Expanded 8 states
+    N=5 lambda=1 subproblem_disks=2 optimal_length=3
+    found solution in 0.14333105087280273s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 23 states
+    N=5 lambda=1 subproblem_disks=3 optimal_length=7
+    found solution in 0.29073190689086914s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 79 states
+    N=5 lambda=1 subproblem_disks=4 optimal_length=15
+    found solution in 0.7139711380004883s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=7 lambda=0.3 subproblem_disks=1 optimal_length=1
+    found solution in 0.0698096752166748s length=1 path=[(0, 2, 0)]
+     Expanded 8 states
+    N=7 lambda=0.3 subproblem_disks=2 optimal_length=3
+    found solution in 0.14957642555236816s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 23 states
+    N=7 lambda=0.3 subproblem_disks=3 optimal_length=7
+    found solution in 0.317288875579834s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 77 states
+    N=7 lambda=0.3 subproblem_disks=4 optimal_length=15
+    found solution in 0.6879220008850098s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=7 lambda=0.5 subproblem_disks=1 optimal_length=1
+    found solution in 0.07944273948669434s length=1 path=[(0, 2, 0)]
+     Expanded 8 states
+    N=7 lambda=0.5 subproblem_disks=2 optimal_length=3
+    found solution in 0.16596078872680664s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 23 states
+    N=7 lambda=0.5 subproblem_disks=3 optimal_length=7
+    found solution in 0.3023521900177002s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 77 states
+    N=7 lambda=0.5 subproblem_disks=4 optimal_length=15
+    found solution in 0.630387544631958s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=7 lambda=0.7 subproblem_disks=1 optimal_length=1
+    found solution in 0.07528352737426758s length=1 path=[(0, 2, 0)]
+     Expanded 8 states
+    N=7 lambda=0.7 subproblem_disks=2 optimal_length=3
+    found solution in 0.21361374855041504s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 23 states
+    N=7 lambda=0.7 subproblem_disks=3 optimal_length=7
+    found solution in 0.3376328945159912s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 77 states
+    N=7 lambda=0.7 subproblem_disks=4 optimal_length=15
+    found solution in 0.6469337940216064s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=7 lambda=1 subproblem_disks=1 optimal_length=1
+    found solution in 0.08678603172302246s length=1 path=[(0, 2, 0)]
+     Expanded 8 states
+    N=7 lambda=1 subproblem_disks=2 optimal_length=3
+    found solution in 0.16050195693969727s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 23 states
+    N=7 lambda=1 subproblem_disks=3 optimal_length=7
+    found solution in 0.30395054817199707s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 77 states
+    N=7 lambda=1 subproblem_disks=4 optimal_length=15
+    found solution in 0.66176438331604s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+
+#### model=DNN_reduced_0_noBatchNorm it=28 ####
+     Expanded 3 states
+    N=5 lambda=0.3 subproblem_disks=1 optimal_length=1
+    found solution in 0.15343809127807617s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=0.3 subproblem_disks=2 optimal_length=3
+    found solution in 0.15599775314331055s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=0.3 subproblem_disks=3 optimal_length=7
+    found solution in 0.32643818855285645s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 67 states
+    N=5 lambda=0.3 subproblem_disks=4 optimal_length=15
+    found solution in 0.7115883827209473s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=5 lambda=0.5 subproblem_disks=1 optimal_length=1
+    found solution in 0.07648658752441406s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=0.5 subproblem_disks=2 optimal_length=3
+    found solution in 0.16260528564453125s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=0.5 subproblem_disks=3 optimal_length=7
+    found solution in 0.31389904022216797s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 67 states
+    N=5 lambda=0.5 subproblem_disks=4 optimal_length=15
+    found solution in 0.7353827953338623s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=5 lambda=0.7 subproblem_disks=1 optimal_length=1
+    found solution in 0.08697032928466797s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=0.7 subproblem_disks=2 optimal_length=3
+    found solution in 0.15738487243652344s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=0.7 subproblem_disks=3 optimal_length=7
+    found solution in 0.31152772903442383s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 67 states
+    N=5 lambda=0.7 subproblem_disks=4 optimal_length=15
+    found solution in 0.6703267097473145s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=5 lambda=1 subproblem_disks=1 optimal_length=1
+    found solution in 0.07726097106933594s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=1 subproblem_disks=2 optimal_length=3
+    found solution in 0.15636992454528809s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=1 subproblem_disks=3 optimal_length=7
+    found solution in 0.30019187927246094s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 67 states
+    N=5 lambda=1 subproblem_disks=4 optimal_length=15
+    found solution in 0.6627202033996582s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=7 lambda=0.3 subproblem_disks=1 optimal_length=1
+    found solution in 0.07728195190429688s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=0.3 subproblem_disks=2 optimal_length=3
+    found solution in 0.14989948272705078s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=0.3 subproblem_disks=3 optimal_length=7
+    found solution in 0.31063246726989746s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 65 states
+    N=7 lambda=0.3 subproblem_disks=4 optimal_length=15
+    found solution in 0.6220223903656006s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=7 lambda=0.5 subproblem_disks=1 optimal_length=1
+    found solution in 0.07875919342041016s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=0.5 subproblem_disks=2 optimal_length=3
+    found solution in 0.15307331085205078s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=0.5 subproblem_disks=3 optimal_length=7
+    found solution in 0.30862879753112793s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 65 states
+    N=7 lambda=0.5 subproblem_disks=4 optimal_length=15
+    found solution in 0.7911221981048584s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=7 lambda=0.7 subproblem_disks=1 optimal_length=1
+    found solution in 0.08062171936035156s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=0.7 subproblem_disks=2 optimal_length=3
+    found solution in 0.1561112403869629s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=0.7 subproblem_disks=3 optimal_length=7
+    found solution in 0.31356120109558105s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 65 states
+    N=7 lambda=0.7 subproblem_disks=4 optimal_length=15
+    found solution in 0.6617026329040527s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=7 lambda=1 subproblem_disks=1 optimal_length=1
+    found solution in 0.08099484443664551s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=1 subproblem_disks=2 optimal_length=3
+    found solution in 0.161513090133667s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=1 subproblem_disks=3 optimal_length=7
+    found solution in 0.33274126052856445s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 65 states
+    N=7 lambda=1 subproblem_disks=4 optimal_length=15
+    found solution in 0.7015285491943359s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+
+#### model=DNN_reduced_0_noBatchNorm it=30 ####
+     Expanded 3 states
+    N=5 lambda=0.3 subproblem_disks=1 optimal_length=1
+    found solution in 0.13823318481445312s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=0.3 subproblem_disks=2 optimal_length=3
+    found solution in 0.16917872428894043s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=0.3 subproblem_disks=3 optimal_length=7
+    found solution in 0.31380248069763184s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 62 states
+    N=5 lambda=0.3 subproblem_disks=4 optimal_length=15
+    found solution in 0.6958489418029785s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=5 lambda=0.5 subproblem_disks=1 optimal_length=1
+    found solution in 0.08734893798828125s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=0.5 subproblem_disks=2 optimal_length=3
+    found solution in 0.165696382522583s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=0.5 subproblem_disks=3 optimal_length=7
+    found solution in 0.3700680732727051s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 62 states
+    N=5 lambda=0.5 subproblem_disks=4 optimal_length=15
+    found solution in 0.7127997875213623s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=5 lambda=0.7 subproblem_disks=1 optimal_length=1
+    found solution in 0.08008027076721191s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=0.7 subproblem_disks=2 optimal_length=3
+    found solution in 0.16704130172729492s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=0.7 subproblem_disks=3 optimal_length=7
+    found solution in 0.31588149070739746s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 62 states
+    N=5 lambda=0.7 subproblem_disks=4 optimal_length=15
+    found solution in 0.6369757652282715s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=5 lambda=1 subproblem_disks=1 optimal_length=1
+    found solution in 0.08354473114013672s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=1 subproblem_disks=2 optimal_length=3
+    found solution in 0.15327000617980957s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=1 subproblem_disks=3 optimal_length=7
+    found solution in 0.3087954521179199s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 62 states
+    N=5 lambda=1 subproblem_disks=4 optimal_length=15
+    found solution in 0.6531836986541748s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=7 lambda=0.3 subproblem_disks=1 optimal_length=1
+    found solution in 0.07877278327941895s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=0.3 subproblem_disks=2 optimal_length=3
+    found solution in 0.15692901611328125s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=0.3 subproblem_disks=3 optimal_length=7
+    found solution in 0.317641019821167s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 64 states
+    N=7 lambda=0.3 subproblem_disks=4 optimal_length=15
+    found solution in 0.6026537418365479s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=7 lambda=0.5 subproblem_disks=1 optimal_length=1
+    found solution in 0.07835602760314941s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=0.5 subproblem_disks=2 optimal_length=3
+    found solution in 0.14830851554870605s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=0.5 subproblem_disks=3 optimal_length=7
+    found solution in 0.30851078033447266s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 64 states
+    N=7 lambda=0.5 subproblem_disks=4 optimal_length=15
+    found solution in 0.5973401069641113s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=7 lambda=0.7 subproblem_disks=1 optimal_length=1
+    found solution in 0.07918977737426758s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=0.7 subproblem_disks=2 optimal_length=3
+    found solution in 0.15343260765075684s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=0.7 subproblem_disks=3 optimal_length=7
+    found solution in 0.2959306240081787s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 64 states
+    N=7 lambda=0.7 subproblem_disks=4 optimal_length=15
+    found solution in 0.6099059581756592s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=7 lambda=1 subproblem_disks=1 optimal_length=1
+    found solution in 0.08963990211486816s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=1 subproblem_disks=2 optimal_length=3
+    found solution in 0.15227890014648438s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=1 subproblem_disks=3 optimal_length=7
+    found solution in 0.31903839111328125s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 64 states
+    N=7 lambda=1 subproblem_disks=4 optimal_length=15
+    found solution in 0.6445362567901611s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+
+#### model=DNN_reduced_0_noBatchNorm it=34 ####
+     Expanded 3 states
+    N=5 lambda=0.3 subproblem_disks=1 optimal_length=1
+    found solution in 0.12385892868041992s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=0.3 subproblem_disks=2 optimal_length=3
+    found solution in 0.15062427520751953s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=0.3 subproblem_disks=3 optimal_length=7
+    found solution in 0.337432861328125s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 62 states
+    N=5 lambda=0.3 subproblem_disks=4 optimal_length=15
+    found solution in 0.7102718353271484s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=5 lambda=0.5 subproblem_disks=1 optimal_length=1
+    found solution in 0.08736133575439453s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=0.5 subproblem_disks=2 optimal_length=3
+    found solution in 0.1542203426361084s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=0.5 subproblem_disks=3 optimal_length=7
+    found solution in 0.351001501083374s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 62 states
+    N=5 lambda=0.5 subproblem_disks=4 optimal_length=15
+    found solution in 0.6340413093566895s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=5 lambda=0.7 subproblem_disks=1 optimal_length=1
+    found solution in 0.08552122116088867s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=0.7 subproblem_disks=2 optimal_length=3
+    found solution in 0.15338540077209473s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=0.7 subproblem_disks=3 optimal_length=7
+    found solution in 0.35283541679382324s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 62 states
+    N=5 lambda=0.7 subproblem_disks=4 optimal_length=15
+    found solution in 0.6765744686126709s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=5 lambda=1 subproblem_disks=1 optimal_length=1
+    found solution in 0.07442283630371094s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=1 subproblem_disks=2 optimal_length=3
+    found solution in 0.15280675888061523s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=1 subproblem_disks=3 optimal_length=7
+    found solution in 0.3305659294128418s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 62 states
+    N=5 lambda=1 subproblem_disks=4 optimal_length=15
+    found solution in 0.7809708118438721s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=7 lambda=0.3 subproblem_disks=1 optimal_length=1
+    found solution in 0.12083029747009277s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=0.3 subproblem_disks=2 optimal_length=3
+    found solution in 0.2415943145751953s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=0.3 subproblem_disks=3 optimal_length=7
+    found solution in 0.48704099655151367s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 65 states
+    N=7 lambda=0.3 subproblem_disks=4 optimal_length=15
+    found solution in 0.9943997859954834s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=7 lambda=0.5 subproblem_disks=1 optimal_length=1
+    found solution in 0.1248929500579834s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=0.5 subproblem_disks=2 optimal_length=3
+    found solution in 0.23994970321655273s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=0.5 subproblem_disks=3 optimal_length=7
+    found solution in 0.49260401725769043s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 65 states
+    N=7 lambda=0.5 subproblem_disks=4 optimal_length=15
+    found solution in 0.7128744125366211s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=7 lambda=0.7 subproblem_disks=1 optimal_length=1
+    found solution in 0.07616281509399414s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=0.7 subproblem_disks=2 optimal_length=3
+    found solution in 0.15076518058776855s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=0.7 subproblem_disks=3 optimal_length=7
+    found solution in 0.297823429107666s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 65 states
+    N=7 lambda=0.7 subproblem_disks=4 optimal_length=15
+    found solution in 0.6127362251281738s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=7 lambda=1 subproblem_disks=1 optimal_length=1
+    found solution in 0.08699893951416016s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=1 subproblem_disks=2 optimal_length=3
+    found solution in 0.15405488014221191s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=1 subproblem_disks=3 optimal_length=7
+    found solution in 0.31197094917297363s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 65 states
+    N=7 lambda=1 subproblem_disks=4 optimal_length=15
+    found solution in 0.6235723495483398s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+
+#### model=DNN_reduced_0_noBatchNorm it=36 ####
+     Expanded 3 states
+    N=5 lambda=0.3 subproblem_disks=1 optimal_length=1
+    found solution in 0.1369640827178955s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=0.3 subproblem_disks=2 optimal_length=3
+    found solution in 0.3358762264251709s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=0.3 subproblem_disks=3 optimal_length=7
+    found solution in 0.36522912979125977s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 62 states
+    N=5 lambda=0.3 subproblem_disks=4 optimal_length=15
+    found solution in 0.6789522171020508s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=5 lambda=0.5 subproblem_disks=1 optimal_length=1
+    found solution in 0.08569049835205078s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=0.5 subproblem_disks=2 optimal_length=3
+    found solution in 0.16364383697509766s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=0.5 subproblem_disks=3 optimal_length=7
+    found solution in 0.33040452003479004s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 62 states
+    N=5 lambda=0.5 subproblem_disks=4 optimal_length=15
+    found solution in 0.6413288116455078s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=5 lambda=0.7 subproblem_disks=1 optimal_length=1
+    found solution in 0.08167290687561035s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=0.7 subproblem_disks=2 optimal_length=3
+    found solution in 0.1935420036315918s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=0.7 subproblem_disks=3 optimal_length=7
+    found solution in 0.31723666191101074s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 62 states
+    N=5 lambda=0.7 subproblem_disks=4 optimal_length=15
+    found solution in 0.6829330921173096s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=5 lambda=1 subproblem_disks=1 optimal_length=1
+    found solution in 0.10335421562194824s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=1 subproblem_disks=2 optimal_length=3
+    found solution in 0.17499351501464844s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=1 subproblem_disks=3 optimal_length=7
+    found solution in 0.297640323638916s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 62 states
+    N=5 lambda=1 subproblem_disks=4 optimal_length=15
+    found solution in 0.6873376369476318s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=7 lambda=0.3 subproblem_disks=1 optimal_length=1
+    found solution in 0.08425331115722656s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=0.3 subproblem_disks=2 optimal_length=3
+    found solution in 0.15258288383483887s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=0.3 subproblem_disks=3 optimal_length=7
+    found solution in 0.29882335662841797s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 64 states
+    N=7 lambda=0.3 subproblem_disks=4 optimal_length=15
+    found solution in 0.6383628845214844s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=7 lambda=0.5 subproblem_disks=1 optimal_length=1
+    found solution in 0.11954760551452637s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=0.5 subproblem_disks=2 optimal_length=3
+    found solution in 0.2434682846069336s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=0.5 subproblem_disks=3 optimal_length=7
+    found solution in 0.4876277446746826s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 64 states
+    N=7 lambda=0.5 subproblem_disks=4 optimal_length=15
+    found solution in 0.9880602359771729s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=7 lambda=0.7 subproblem_disks=1 optimal_length=1
+    found solution in 0.12143349647521973s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=0.7 subproblem_disks=2 optimal_length=3
+    found solution in 0.23938751220703125s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=0.7 subproblem_disks=3 optimal_length=7
+    found solution in 0.4889039993286133s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 64 states
+    N=7 lambda=0.7 subproblem_disks=4 optimal_length=15
+    found solution in 0.8308956623077393s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 3 states
+    N=7 lambda=1 subproblem_disks=1 optimal_length=1
+    found solution in 0.07812023162841797s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=1 subproblem_disks=2 optimal_length=3
+    found solution in 0.15250205993652344s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=1 subproblem_disks=3 optimal_length=7
+    found solution in 0.2956888675689697s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 64 states
+    N=7 lambda=1 subproblem_disks=4 optimal_length=15
+    found solution in 0.590526819229126s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+
+>>> 
+
+
+
+
+
+
+
+
+(base) carlos@carlos:~/DG/TFG/Info/Code$ python3 -i final_models_tests.py 
+>>> test_final_models_hanoi(7,3)
+2022-05-07 23:54:48.345091: W tensorflow/stream_executor/platform/default/dso_loader.cc:64] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2022-05-07 23:54:48.345132: W tensorflow/stream_executor/cuda/cuda_driver.cc:269] failed call to cuInit: UNKNOWN ERROR (303)
+2022-05-07 23:54:48.345169: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (carlos): /proc/driver/nvidia/version does not exist
+2022-05-07 23:54:48.345456: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+#### model=DNN_0 it=1320 ####
+     Expanded 3 states
+    N=5 lambda=0.3 subproblem_disks=1 optimal_length=1
+    found solution in 0.30887556076049805s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=0.3 subproblem_disks=2 optimal_length=3
+    found solution in 0.17310714721679688s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=0.3 subproblem_disks=3 optimal_length=7
+    found solution in 0.3448610305786133s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 57 states
+    N=5 lambda=0.3 subproblem_disks=4 optimal_length=15
+    found solution in 0.6728262901306152s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 192 states
+    N=5 lambda=0.3 subproblem_disks=5 optimal_length=31
+    found solution in 1.9241836071014404s length=31 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 547 states
+    N=5 lambda=0.3 subproblem_disks=6 optimal_length=63
+    found solution in 5.7080254554748535s length=63 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (4, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (3, 0, 1), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (5, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (3, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (4, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 2117 states
+    N=5 lambda=0.3 subproblem_disks=7 optimal_length=127
+    found solution in 19.497235536575317s length=127 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (5, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (4, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (6, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (4, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (5, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 3 states
+    N=5 lambda=0.5 subproblem_disks=1 optimal_length=1
+    found solution in 0.08163762092590332s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=0.5 subproblem_disks=2 optimal_length=3
+    found solution in 0.17984247207641602s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=0.5 subproblem_disks=3 optimal_length=7
+    found solution in 0.34833550453186035s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 57 states
+    N=5 lambda=0.5 subproblem_disks=4 optimal_length=15
+    found solution in 0.7046337127685547s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 182 states
+    N=5 lambda=0.5 subproblem_disks=5 optimal_length=31
+    found solution in 1.757357120513916s length=31 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 527 states
+    N=5 lambda=0.5 subproblem_disks=6 optimal_length=63
+    found solution in 5.340737819671631s length=63 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (4, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (3, 0, 1), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (5, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (3, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (4, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 1927 states
+    N=5 lambda=0.5 subproblem_disks=7 optimal_length=127
+    found solution in 17.74423050880432s length=127 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (5, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (4, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (6, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (4, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (5, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 3 states
+    N=5 lambda=0.7 subproblem_disks=1 optimal_length=1
+    found solution in 0.11914300918579102s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=0.7 subproblem_disks=2 optimal_length=3
+    found solution in 0.22612309455871582s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=0.7 subproblem_disks=3 optimal_length=7
+    found solution in 0.4111616611480713s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 57 states
+    N=5 lambda=0.7 subproblem_disks=4 optimal_length=15
+    found solution in 0.7774810791015625s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 172 states
+    N=5 lambda=0.7 subproblem_disks=5 optimal_length=31
+    found solution in 1.682295322418213s length=31 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 517 states
+    N=5 lambda=0.7 subproblem_disks=6 optimal_length=63
+    found solution in 4.984813690185547s length=63 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (4, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (3, 0, 1), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (5, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (3, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (4, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 1857 states
+    N=5 lambda=0.7 subproblem_disks=7 optimal_length=127
+    found solution in 18.122899770736694s length=127 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (5, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (4, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (6, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (4, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (5, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 3 states
+    N=5 lambda=1 subproblem_disks=1 optimal_length=1
+    found solution in 0.17390751838684082s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=1 subproblem_disks=2 optimal_length=3
+    found solution in 0.24609923362731934s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=1 subproblem_disks=3 optimal_length=7
+    found solution in 0.4079396724700928s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 57 states
+    N=5 lambda=1 subproblem_disks=4 optimal_length=15
+    found solution in 0.8940308094024658s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 167 states
+    N=5 lambda=1 subproblem_disks=5 optimal_length=31
+    found solution in 2.001819372177124s length=31 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 507 states
+    N=5 lambda=1 subproblem_disks=6 optimal_length=63
+    found solution in 4.55584454536438s length=63 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (4, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (3, 0, 1), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (5, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (3, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (4, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 1767 states
+    N=5 lambda=1 subproblem_disks=7 optimal_length=127
+    found solution in 18.328728675842285s length=127 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (5, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (4, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (6, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (4, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (5, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 3 states
+    N=7 lambda=0.3 subproblem_disks=1 optimal_length=1
+    found solution in 0.12432599067687988s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=0.3 subproblem_disks=2 optimal_length=3
+    found solution in 0.2554171085357666s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=0.3 subproblem_disks=3 optimal_length=7
+    found solution in 0.5207326412200928s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 62 states
+    N=7 lambda=0.3 subproblem_disks=4 optimal_length=15
+    found solution in 1.048341989517212s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 191 states
+    N=7 lambda=0.3 subproblem_disks=5 optimal_length=31
+    found solution in 2.377694845199585s length=31 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 561 states
+    N=7 lambda=0.3 subproblem_disks=6 optimal_length=63
+    found solution in 3.9448091983795166s length=63 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (4, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (3, 0, 1), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (5, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (3, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (4, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 2123 states
+    N=7 lambda=0.3 subproblem_disks=7 optimal_length=127
+    found solution in 16.7756404876709s length=127 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (5, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (4, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (6, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (4, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (5, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 3 states
+    N=7 lambda=0.5 subproblem_disks=1 optimal_length=1
+    found solution in 0.13383197784423828s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=0.5 subproblem_disks=2 optimal_length=3
+    found solution in 0.25243592262268066s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=0.5 subproblem_disks=3 optimal_length=7
+    found solution in 0.5140721797943115s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 62 states
+    N=7 lambda=0.5 subproblem_disks=4 optimal_length=15
+    found solution in 1.0276715755462646s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 186 states
+    N=7 lambda=0.5 subproblem_disks=5 optimal_length=31
+    found solution in 2.2833220958709717s length=31 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 547 states
+    N=7 lambda=0.5 subproblem_disks=6 optimal_length=63
+    found solution in 3.696113109588623s length=63 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (4, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (3, 0, 1), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (5, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (3, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (4, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 1896 states
+    N=7 lambda=0.5 subproblem_disks=7 optimal_length=127
+    found solution in 16.02923893928528s length=127 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (5, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (4, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (6, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (4, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (5, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 3 states
+    N=7 lambda=0.7 subproblem_disks=1 optimal_length=1
+    found solution in 0.08670306205749512s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=0.7 subproblem_disks=2 optimal_length=3
+    found solution in 0.1735248565673828s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=0.7 subproblem_disks=3 optimal_length=7
+    found solution in 0.3502950668334961s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 62 states
+    N=7 lambda=0.7 subproblem_disks=4 optimal_length=15
+    found solution in 0.6931426525115967s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 186 states
+    N=7 lambda=0.7 subproblem_disks=5 optimal_length=31
+    found solution in 1.526737928390503s length=31 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 532 states
+    N=7 lambda=0.7 subproblem_disks=6 optimal_length=63
+    found solution in 3.476893424987793s length=63 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (4, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (3, 0, 1), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (5, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (3, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (4, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 1825 states
+    N=7 lambda=0.7 subproblem_disks=7 optimal_length=127
+    found solution in 15.4613778591156s length=127 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (5, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (4, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (6, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (4, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (5, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 3 states
+    N=7 lambda=1 subproblem_disks=1 optimal_length=1
+    found solution in 0.12567949295043945s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=1 subproblem_disks=2 optimal_length=3
+    found solution in 0.26024603843688965s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=1 subproblem_disks=3 optimal_length=7
+    found solution in 0.5109660625457764s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 62 states
+    N=7 lambda=1 subproblem_disks=4 optimal_length=15
+    found solution in 1.0513620376586914s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 188 states
+    N=7 lambda=1 subproblem_disks=5 optimal_length=31
+    found solution in 2.3168272972106934s length=31 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 524 states
+    N=7 lambda=1 subproblem_disks=6 optimal_length=63
+    found solution in 3.6608762741088867s length=63 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (4, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (3, 0, 1), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (5, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (3, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (4, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 1774 states
+    N=7 lambda=1 subproblem_disks=7 optimal_length=127
+    found solution in 14.089829921722412s length=127 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (5, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (4, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (6, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (4, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (5, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+
+#### model=DNN_0 it=1354 ####
+     Expanded 3 states
+    N=5 lambda=0.3 subproblem_disks=1 optimal_length=1
+    found solution in 0.43597865104675293s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=0.3 subproblem_disks=2 optimal_length=3
+    found solution in 0.24999284744262695s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=0.3 subproblem_disks=3 optimal_length=7
+    found solution in 0.508479118347168s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 57 states
+    N=5 lambda=0.3 subproblem_disks=4 optimal_length=15
+    found solution in 1.019500732421875s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 202 states
+    N=5 lambda=0.3 subproblem_disks=5 optimal_length=31
+    found solution in 2.9102537631988525s length=31 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 552 states
+    N=5 lambda=0.3 subproblem_disks=6 optimal_length=63
+    found solution in 4.821325063705444s length=63 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (4, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (3, 0, 1), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (5, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (3, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (4, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 2047 states
+    N=5 lambda=0.3 subproblem_disks=7 optimal_length=127
+    found solution in 20.758257627487183s length=131 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (5, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (4, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (6, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (4, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (5, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 3 states
+    N=5 lambda=0.5 subproblem_disks=1 optimal_length=1
+    found solution in 0.08386778831481934s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=0.5 subproblem_disks=2 optimal_length=3
+    found solution in 0.17621135711669922s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=0.5 subproblem_disks=3 optimal_length=7
+    found solution in 0.36752963066101074s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 57 states
+    N=5 lambda=0.5 subproblem_disks=4 optimal_length=15
+    found solution in 0.7159786224365234s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 187 states
+    N=5 lambda=0.5 subproblem_disks=5 optimal_length=31
+    found solution in 1.8239836692810059s length=31 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 522 states
+    N=5 lambda=0.5 subproblem_disks=6 optimal_length=63
+    found solution in 4.717922210693359s length=63 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (4, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (3, 0, 1), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (5, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (3, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (4, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 1887 states
+    N=5 lambda=0.5 subproblem_disks=7 optimal_length=127
+    found solution in 18.92601466178894s length=127 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (5, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (4, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (6, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (4, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (5, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 3 states
+    N=5 lambda=0.7 subproblem_disks=1 optimal_length=1
+    found solution in 0.1308138370513916s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=0.7 subproblem_disks=2 optimal_length=3
+    found solution in 0.252610445022583s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=0.7 subproblem_disks=3 optimal_length=7
+    found solution in 0.525947093963623s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 57 states
+    N=5 lambda=0.7 subproblem_disks=4 optimal_length=15
+    found solution in 1.0500919818878174s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 182 states
+    N=5 lambda=0.7 subproblem_disks=5 optimal_length=31
+    found solution in 2.7119016647338867s length=31 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 512 states
+    N=5 lambda=0.7 subproblem_disks=6 optimal_length=63
+    found solution in 7.06212592124939s length=63 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (4, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (3, 0, 1), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (5, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (3, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (4, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 1792 states
+    N=5 lambda=0.7 subproblem_disks=7 optimal_length=127
+    found solution in 18.706499814987183s length=127 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (5, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (4, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (6, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (4, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (5, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 3 states
+    N=5 lambda=1 subproblem_disks=1 optimal_length=1
+    found solution in 0.09180021286010742s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=1 subproblem_disks=2 optimal_length=3
+    found solution in 0.181077241897583s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=1 subproblem_disks=3 optimal_length=7
+    found solution in 0.3841698169708252s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 57 states
+    N=5 lambda=1 subproblem_disks=4 optimal_length=15
+    found solution in 0.7941253185272217s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 167 states
+    N=5 lambda=1 subproblem_disks=5 optimal_length=31
+    found solution in 1.9643819332122803s length=31 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 501 states
+    N=5 lambda=1 subproblem_disks=6 optimal_length=63
+    found solution in 5.440222263336182s length=63 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (4, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (3, 0, 1), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (5, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (3, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (4, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 1740 states
+    N=5 lambda=1 subproblem_disks=7 optimal_length=127
+    found solution in 17.374836444854736s length=127 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (5, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (4, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (6, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (4, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (5, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 3 states
+    N=7 lambda=0.3 subproblem_disks=1 optimal_length=1
+    found solution in 0.08215832710266113s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=0.3 subproblem_disks=2 optimal_length=3
+    found solution in 0.17847514152526855s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=0.3 subproblem_disks=3 optimal_length=7
+    found solution in 0.35840916633605957s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 62 states
+    N=7 lambda=0.3 subproblem_disks=4 optimal_length=15
+    found solution in 0.723240852355957s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 191 states
+    N=7 lambda=0.3 subproblem_disks=5 optimal_length=31
+    found solution in 1.6266119480133057s length=31 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 555 states
+    N=7 lambda=0.3 subproblem_disks=6 optimal_length=63
+    found solution in 4.199268579483032s length=63 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (4, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (3, 0, 1), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (5, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (3, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (4, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 2068 states
+    N=7 lambda=0.3 subproblem_disks=7 optimal_length=127
+    found solution in 21.189120531082153s length=131 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (5, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (4, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (6, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (4, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (5, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 3 states
+    N=7 lambda=0.5 subproblem_disks=1 optimal_length=1
+    found solution in 0.12622785568237305s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=0.5 subproblem_disks=2 optimal_length=3
+    found solution in 0.2580435276031494s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=0.5 subproblem_disks=3 optimal_length=7
+    found solution in 0.5206573009490967s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 62 states
+    N=7 lambda=0.5 subproblem_disks=4 optimal_length=15
+    found solution in 1.049396276473999s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 186 states
+    N=7 lambda=0.5 subproblem_disks=5 optimal_length=31
+    found solution in 2.3288769721984863s length=31 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 534 states
+    N=7 lambda=0.5 subproblem_disks=6 optimal_length=63
+    found solution in 5.688569784164429s length=63 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (4, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (3, 0, 1), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (5, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (3, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (4, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 1877 states
+    N=7 lambda=0.5 subproblem_disks=7 optimal_length=127
+    found solution in 12.87488603591919s length=127 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (5, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (4, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (6, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (4, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (5, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 3 states
+    N=7 lambda=0.7 subproblem_disks=1 optimal_length=1
+    found solution in 0.08153915405273438s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=0.7 subproblem_disks=2 optimal_length=3
+    found solution in 0.18706560134887695s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=0.7 subproblem_disks=3 optimal_length=7
+    found solution in 0.37931323051452637s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 62 states
+    N=7 lambda=0.7 subproblem_disks=4 optimal_length=15
+    found solution in 0.7255520820617676s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 186 states
+    N=7 lambda=0.7 subproblem_disks=5 optimal_length=31
+    found solution in 1.5523242950439453s length=31 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 534 states
+    N=7 lambda=0.7 subproblem_disks=6 optimal_length=63
+    found solution in 3.939202070236206s length=63 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (4, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (3, 0, 1), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (5, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (3, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (4, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 1789 states
+    N=7 lambda=0.7 subproblem_disks=7 optimal_length=127
+    found solution in 15.908817052841187s length=127 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (5, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (4, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (6, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (4, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (5, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 3 states
+    N=7 lambda=1 subproblem_disks=1 optimal_length=1
+    found solution in 0.13567280769348145s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=1 subproblem_disks=2 optimal_length=3
+    found solution in 0.2596306800842285s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=1 subproblem_disks=3 optimal_length=7
+    found solution in 0.528681755065918s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 62 states
+    N=7 lambda=1 subproblem_disks=4 optimal_length=15
+    found solution in 1.0524542331695557s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 188 states
+    N=7 lambda=1 subproblem_disks=5 optimal_length=31
+    found solution in 2.35387921333313s length=31 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 527 states
+    N=7 lambda=1 subproblem_disks=6 optimal_length=63
+    found solution in 4.8744330406188965s length=63 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (4, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (3, 0, 1), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (5, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (3, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (4, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 1759 states
+    N=7 lambda=1 subproblem_disks=7 optimal_length=127
+    found solution in 14.27747130393982s length=127 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (5, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (4, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (6, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (4, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (5, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+
+#### model=DNN_0 it=1424 ####
+     Expanded 3 states
+    N=5 lambda=0.3 subproblem_disks=1 optimal_length=1
+    found solution in 0.45037198066711426s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=0.3 subproblem_disks=2 optimal_length=3
+    found solution in 0.251373291015625s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=0.3 subproblem_disks=3 optimal_length=7
+    found solution in 0.5229465961456299s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 57 states
+    N=5 lambda=0.3 subproblem_disks=4 optimal_length=15
+    found solution in 1.0396485328674316s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 172 states
+    N=5 lambda=0.3 subproblem_disks=5 optimal_length=31
+    found solution in 2.562528610229492s length=35 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 532 states
+    N=5 lambda=0.3 subproblem_disks=6 optimal_length=63
+    found solution in 4.8712310791015625s length=63 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (4, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (3, 0, 1), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (5, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (3, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (4, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 2072 states
+    N=5 lambda=0.3 subproblem_disks=7 optimal_length=127
+    found solution in 19.58108949661255s length=127 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (5, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (4, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (6, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (4, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (5, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 3 states
+    N=5 lambda=0.5 subproblem_disks=1 optimal_length=1
+    found solution in 0.1276686191558838s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=0.5 subproblem_disks=2 optimal_length=3
+    found solution in 0.2699747085571289s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=0.5 subproblem_disks=3 optimal_length=7
+    found solution in 0.5256433486938477s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 57 states
+    N=5 lambda=0.5 subproblem_disks=4 optimal_length=15
+    found solution in 1.0471720695495605s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 157 states
+    N=5 lambda=0.5 subproblem_disks=5 optimal_length=31
+    found solution in 2.3833565711975098s length=31 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 522 states
+    N=5 lambda=0.5 subproblem_disks=6 optimal_length=63
+    found solution in 7.2264404296875s length=63 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (4, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (3, 0, 1), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (5, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (3, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (4, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 1792 states
+    N=5 lambda=0.5 subproblem_disks=7 optimal_length=127
+    found solution in 17.753633737564087s length=127 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (5, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (4, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (6, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (4, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (5, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 3 states
+    N=5 lambda=0.7 subproblem_disks=1 optimal_length=1
+    found solution in 0.08841204643249512s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=0.7 subproblem_disks=2 optimal_length=3
+    found solution in 0.1954355239868164s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=0.7 subproblem_disks=3 optimal_length=7
+    found solution in 0.3743011951446533s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 57 states
+    N=5 lambda=0.7 subproblem_disks=4 optimal_length=15
+    found solution in 0.752169132232666s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 152 states
+    N=5 lambda=0.7 subproblem_disks=5 optimal_length=31
+    found solution in 1.6067249774932861s length=31 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 512 states
+    N=5 lambda=0.7 subproblem_disks=6 optimal_length=63
+    found solution in 4.823601007461548s length=63 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (4, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (3, 0, 1), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (5, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (3, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (4, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 1682 states
+    N=5 lambda=0.7 subproblem_disks=7 optimal_length=127
+    found solution in 15.707059383392334s length=127 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (5, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (4, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (6, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (4, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (5, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 3 states
+    N=5 lambda=1 subproblem_disks=1 optimal_length=1
+    found solution in 0.08795428276062012s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=1 subproblem_disks=2 optimal_length=3
+    found solution in 0.20163917541503906s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=1 subproblem_disks=3 optimal_length=7
+    found solution in 0.3773496150970459s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 57 states
+    N=5 lambda=1 subproblem_disks=4 optimal_length=15
+    found solution in 0.7612004280090332s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 151 states
+    N=5 lambda=1 subproblem_disks=5 optimal_length=31
+    found solution in 1.6056878566741943s length=31 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 501 states
+    N=5 lambda=1 subproblem_disks=6 optimal_length=63
+    found solution in 4.739722728729248s length=63 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (4, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (3, 0, 1), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (5, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (3, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (4, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 1674 states
+    N=5 lambda=1 subproblem_disks=7 optimal_length=127
+    found solution in 15.39151930809021s length=127 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (5, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (4, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (6, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (4, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (5, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 3 states
+    N=7 lambda=0.3 subproblem_disks=1 optimal_length=1
+    found solution in 0.09068965911865234s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=0.3 subproblem_disks=2 optimal_length=3
+    found solution in 0.18946099281311035s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=0.3 subproblem_disks=3 optimal_length=7
+    found solution in 0.38344407081604004s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 62 states
+    N=7 lambda=0.3 subproblem_disks=4 optimal_length=15
+    found solution in 0.7387971878051758s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 174 states
+    N=7 lambda=0.3 subproblem_disks=5 optimal_length=31
+    found solution in 1.7109858989715576s length=31 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 568 states
+    N=7 lambda=0.3 subproblem_disks=6 optimal_length=63
+    found solution in 4.202624559402466s length=63 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (4, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (3, 0, 1), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (5, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (3, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (4, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 2071 states
+    N=7 lambda=0.3 subproblem_disks=7 optimal_length=127
+    found solution in 20.619471549987793s length=127 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (5, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (4, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (6, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (4, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (5, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 3 states
+    N=7 lambda=0.5 subproblem_disks=1 optimal_length=1
+    found solution in 0.1265401840209961s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=0.5 subproblem_disks=2 optimal_length=3
+    found solution in 0.26749658584594727s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=0.5 subproblem_disks=3 optimal_length=7
+    found solution in 0.5285868644714355s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 62 states
+    N=7 lambda=0.5 subproblem_disks=4 optimal_length=15
+    found solution in 1.04921555519104s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 174 states
+    N=7 lambda=0.5 subproblem_disks=5 optimal_length=31
+    found solution in 2.193188428878784s length=31 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 551 states
+    N=7 lambda=0.5 subproblem_disks=6 optimal_length=63
+    found solution in 5.84870171546936s length=63 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (4, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (3, 0, 1), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (5, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (3, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (4, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 1785 states
+    N=7 lambda=0.5 subproblem_disks=7 optimal_length=127
+    found solution in 13.489384889602661s length=127 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (5, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (4, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (6, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (4, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (5, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 3 states
+    N=7 lambda=0.7 subproblem_disks=1 optimal_length=1
+    found solution in 0.1414482593536377s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=0.7 subproblem_disks=2 optimal_length=3
+    found solution in 0.25815391540527344s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=0.7 subproblem_disks=3 optimal_length=7
+    found solution in 0.5297448635101318s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 62 states
+    N=7 lambda=0.7 subproblem_disks=4 optimal_length=15
+    found solution in 1.0574166774749756s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 173 states
+    N=7 lambda=0.7 subproblem_disks=5 optimal_length=31
+    found solution in 2.231212854385376s length=31 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 537 states
+    N=7 lambda=0.7 subproblem_disks=6 optimal_length=63
+    found solution in 4.9986841678619385s length=63 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (4, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (3, 0, 1), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (5, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (3, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (4, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 1708 states
+    N=7 lambda=0.7 subproblem_disks=7 optimal_length=127
+    found solution in 11.13141417503357s length=127 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (5, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (4, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (6, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (4, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (5, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 3 states
+    N=7 lambda=1 subproblem_disks=1 optimal_length=1
+    found solution in 0.08583664894104004s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=1 subproblem_disks=2 optimal_length=3
+    found solution in 0.19005131721496582s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=1 subproblem_disks=3 optimal_length=7
+    found solution in 0.36757755279541016s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 62 states
+    N=7 lambda=1 subproblem_disks=4 optimal_length=15
+    found solution in 0.7423050403594971s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 172 states
+    N=7 lambda=1 subproblem_disks=5 optimal_length=31
+    found solution in 1.5477426052093506s length=31 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 532 states
+    N=7 lambda=1 subproblem_disks=6 optimal_length=63
+    found solution in 4.152131080627441s length=63 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (4, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (3, 0, 1), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (5, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (3, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (4, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 1664 states
+    N=7 lambda=1 subproblem_disks=7 optimal_length=127
+    found solution in 14.579525709152222s length=127 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (5, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (4, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (6, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (4, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (5, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+
+#### model=DNN_0 it=1536 ####
+     Expanded 3 states
+    N=5 lambda=0.3 subproblem_disks=1 optimal_length=1
+    found solution in 0.4479522705078125s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=0.3 subproblem_disks=2 optimal_length=3
+    found solution in 0.25180506706237793s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=0.3 subproblem_disks=3 optimal_length=7
+    found solution in 0.5240743160247803s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 57 states
+    N=5 lambda=0.3 subproblem_disks=4 optimal_length=15
+    found solution in 1.0466797351837158s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 161 states
+    N=5 lambda=0.3 subproblem_disks=5 optimal_length=31
+    found solution in 2.4752135276794434s length=31 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 549 states
+    N=5 lambda=0.3 subproblem_disks=6 optimal_length=63
+    found solution in 8.544342756271362s length=63 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (4, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (3, 0, 1), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (5, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (3, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (4, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 1992 states
+    N=5 lambda=0.3 subproblem_disks=7 optimal_length=127
+    found solution in 22.680870294570923s length=127 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (5, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (4, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (6, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (4, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (5, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 3 states
+    N=5 lambda=0.5 subproblem_disks=1 optimal_length=1
+    found solution in 0.1238400936126709s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=0.5 subproblem_disks=2 optimal_length=3
+    found solution in 0.2648038864135742s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=0.5 subproblem_disks=3 optimal_length=7
+    found solution in 0.5172419548034668s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 57 states
+    N=5 lambda=0.5 subproblem_disks=4 optimal_length=15
+    found solution in 1.0312166213989258s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 164 states
+    N=5 lambda=0.5 subproblem_disks=5 optimal_length=31
+    found solution in 2.4756460189819336s length=31 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 524 states
+    N=5 lambda=0.5 subproblem_disks=6 optimal_length=63
+    found solution in 7.46358585357666s length=63 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (4, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (3, 0, 1), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (5, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (3, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (4, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 1817 states
+    N=5 lambda=0.5 subproblem_disks=7 optimal_length=127
+    found solution in 19.77335000038147s length=127 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (5, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (4, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (6, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (4, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (5, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 3 states
+    N=5 lambda=0.7 subproblem_disks=1 optimal_length=1
+    found solution in 0.09124565124511719s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=0.7 subproblem_disks=2 optimal_length=3
+    found solution in 0.17648625373840332s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=0.7 subproblem_disks=3 optimal_length=7
+    found solution in 0.35854077339172363s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 57 states
+    N=5 lambda=0.7 subproblem_disks=4 optimal_length=15
+    found solution in 0.683875560760498s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 151 states
+    N=5 lambda=0.7 subproblem_disks=5 optimal_length=31
+    found solution in 1.5854644775390625s length=31 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 499 states
+    N=5 lambda=0.7 subproblem_disks=6 optimal_length=63
+    found solution in 5.723556041717529s length=63 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (4, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (3, 0, 1), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (5, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (3, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (4, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 1715 states
+    N=5 lambda=0.7 subproblem_disks=7 optimal_length=127
+    found solution in 18.50232219696045s length=127 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (5, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (4, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (6, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (4, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (5, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 3 states
+    N=5 lambda=1 subproblem_disks=1 optimal_length=1
+    found solution in 0.08842253684997559s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=5 lambda=1 subproblem_disks=2 optimal_length=3
+    found solution in 0.21866416931152344s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=5 lambda=1 subproblem_disks=3 optimal_length=7
+    found solution in 0.4013173580169678s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 57 states
+    N=5 lambda=1 subproblem_disks=4 optimal_length=15
+    found solution in 0.890496015548706s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 146 states
+    N=5 lambda=1 subproblem_disks=5 optimal_length=31
+    found solution in 1.693817138671875s length=31 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 486 states
+    N=5 lambda=1 subproblem_disks=6 optimal_length=63
+    found solution in 7.256163597106934s length=63 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (4, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (3, 0, 1), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (5, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (3, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (4, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 1691 states
+    N=5 lambda=1 subproblem_disks=7 optimal_length=127
+    found solution in 23.82984495162964s length=127 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (5, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (4, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (6, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (4, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (5, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 3 states
+    N=7 lambda=0.3 subproblem_disks=1 optimal_length=1
+    found solution in 0.12623047828674316s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=0.3 subproblem_disks=2 optimal_length=3
+    found solution in 0.2622506618499756s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=0.3 subproblem_disks=3 optimal_length=7
+    found solution in 0.5141098499298096s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 62 states
+    N=7 lambda=0.3 subproblem_disks=4 optimal_length=15
+    found solution in 1.058480978012085s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 171 states
+    N=7 lambda=0.3 subproblem_disks=5 optimal_length=31
+    found solution in 2.3242807388305664s length=31 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 559 states
+    N=7 lambda=0.3 subproblem_disks=6 optimal_length=63
+    found solution in 6.566746711730957s length=63 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (4, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (3, 0, 1), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (5, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (3, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (4, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 2028 states
+    N=7 lambda=0.3 subproblem_disks=7 optimal_length=127
+    found solution in 14.869168996810913s length=127 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (5, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (4, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (6, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (4, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (5, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 3 states
+    N=7 lambda=0.5 subproblem_disks=1 optimal_length=1
+    found solution in 0.10514950752258301s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=0.5 subproblem_disks=2 optimal_length=3
+    found solution in 0.20868563652038574s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=0.5 subproblem_disks=3 optimal_length=7
+    found solution in 0.3856375217437744s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 62 states
+    N=7 lambda=0.5 subproblem_disks=4 optimal_length=15
+    found solution in 0.7405905723571777s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 172 states
+    N=7 lambda=0.5 subproblem_disks=5 optimal_length=31
+    found solution in 1.645580530166626s length=31 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 550 states
+    N=7 lambda=0.5 subproblem_disks=6 optimal_length=63
+    found solution in 3.9598822593688965s length=63 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (4, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (3, 0, 1), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (5, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (3, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (4, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 1796 states
+    N=7 lambda=0.5 subproblem_disks=7 optimal_length=127
+    found solution in 13.174645900726318s length=127 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (5, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (4, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (6, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (4, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (5, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 3 states
+    N=7 lambda=0.7 subproblem_disks=1 optimal_length=1
+    found solution in 0.15002036094665527s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=0.7 subproblem_disks=2 optimal_length=3
+    found solution in 0.2992701530456543s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=0.7 subproblem_disks=3 optimal_length=7
+    found solution in 0.5656518936157227s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 62 states
+    N=7 lambda=0.7 subproblem_disks=4 optimal_length=15
+    found solution in 1.126755714416504s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 170 states
+    N=7 lambda=0.7 subproblem_disks=5 optimal_length=31
+    found solution in 2.2505362033843994s length=31 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 533 states
+    N=7 lambda=0.7 subproblem_disks=6 optimal_length=63
+    found solution in 5.958242177963257s length=63 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (4, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (3, 0, 1), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (5, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (3, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (4, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 1732 states
+    N=7 lambda=0.7 subproblem_disks=7 optimal_length=127
+    found solution in 17.60200262069702s length=127 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (5, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (4, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (6, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (4, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (5, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 3 states
+    N=7 lambda=1 subproblem_disks=1 optimal_length=1
+    found solution in 0.13446331024169922s length=1 path=[(0, 2, 0)]
+     Expanded 7 states
+    N=7 lambda=1 subproblem_disks=2 optimal_length=3
+    found solution in 0.2544984817504883s length=3 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 21 states
+    N=7 lambda=1 subproblem_disks=3 optimal_length=7
+    found solution in 0.5340292453765869s length=7 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 62 states
+    N=7 lambda=1 subproblem_disks=4 optimal_length=15
+    found solution in 1.024573564529419s length=15 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 170 states
+    N=7 lambda=1 subproblem_disks=5 optimal_length=31
+    found solution in 1.4735028743743896s length=31 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+     Expanded 512 states
+    N=7 lambda=1 subproblem_disks=6 optimal_length=63
+    found solution in 3.624460458755493s length=63 path=[(0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (4, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (3, 0, 1), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (5, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (3, 1, 2), (0, 0, 2), (1, 0, 1), (0, 2, 1), (2, 0, 2), (0, 1, 0), (1, 1, 2), (0, 0, 2), (4, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0), (2, 2, 1), (0, 0, 2), (1, 0, 1), (0, 2, 1), (3, 2, 0), (0, 1, 0), (1, 1, 2), (0, 0, 2), (2, 1, 0), (0, 2, 1), (1, 2, 0), (0, 1, 0)]
+     Expanded 1676 states
+    N=7 lambda=1 subproblem_disks=7 optimal_length=127
+    found solution in 12.09668254852295s length=127 path=[(0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (5, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (4, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (6, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (4, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (3, 0, 2), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (5, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (3, 2, 1), (0, 0, 1), (1, 0, 2), (0, 1, 2), (2, 0, 1), (0, 2, 0), (1, 2, 1), (0, 0, 1), (4, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0), (2, 1, 2), (0, 0, 1), (1, 0, 2), (0, 1, 2), (3, 1, 0), (0, 2, 0), (1, 2, 1), (0, 0, 1), (2, 2, 0), (0, 1, 2), (1, 1, 0), (0, 2, 0)]
+
+>>> 
+
