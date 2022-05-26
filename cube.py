@@ -126,19 +126,6 @@ class Cube(Puzzle):
             a = a + "'"
         return self.action(prev_state, a)
         
-    """
-    def actions(self, action_list, return_list = False, prev=None): 
-        if prev is None:
-            prev = self.goal_state()
-        if isinstance(action_list, str):
-            action_list = action_list.split(' ')
-        prev_list = [prev]
-        for a in action_list:
-            prev = self.action(prev, a)
-            if return_list:
-                prev_list.append(prev)
-        return prev_list if return_list else prev
-    """
     def state_str(self, state):
         int_rep = from_one_hot(state)
         int_rep.shape = (6,self.n,self.n)

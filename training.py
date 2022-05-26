@@ -16,20 +16,6 @@ def set_seeds(seed=42):
     tf.random.set_seed(seed)
     np.random.seed(seed)
 
-# ~ def next_cost_old(model_e, X, goal_state, puzzle):
-    # ~ y = []
-    # ~ for state in X:
-        # ~ if np.array_equal(state, goal_state):
-            # ~ y.append(0)
-            # ~ continue
-        # ~ next_states = [puzzle.action(state,a) for a in puzzle.valid_actions(state)]
-        # ~ if list(filter(lambda s: np.array_equal(s, goal_state), next_states)):
-            # ~ y.append(1) # Mal, hay que tener en cuenta cost
-            # ~ continue
-        # ~ preds = model_e.predict(np.array(next_states)) + 1 # Mal, hay que tener en cuenta cost
-        # ~ y.append(min(preds)[0])
-    # ~ return y
-    
 class Dataset(tf.keras.utils.Sequence):
     def __init__(self, data, batch_size):
         self.data = data
@@ -122,20 +108,9 @@ def train(model, puzzle, save_path, initial_conv_point, initial_it, losses, B, B
                 if (conv_point-1) % CC == 0:
                     nn.save_weights(model, str(puzzle), iteration, save_path)
                 conv_point += 1
-#Hanoi 4_3 train_deepcubea("DNN_reduced_0_noBatchNorm", 0, puzz=Hanoi(4,3), B=200, B_val=20, K=2**5, C=2, eps=0.05, initial_conv_point=2)
-#Hanoi 4_3 train_deepcubea("DNN_final_2x2x2_nr", 0, puzz=Hanoi(4,3), B=200, B_val=20, K=2**5, C=2, eps=0.05, initial_conv_point=2)
 
-#Hanoi_7_3 train_deepcubea("DNN_0", 0, puzz=Hanoi(7,3), B=400, B_val=40, K=2**7, C=2, CC=10, eps=0.05, conv_point_offs=2)
-
-#Hanoi_10_3 train_deepcubea("DNN_0", 0, puzz=Hanoi(10,3), B=500, B_val=50, K=2**10, C=2, CC=10, eps=0.05, conv_point_offs=2) 10000 iterations and 582 convergences
-#Hanoi_10_3 train_deepcubea("DNN_reduced_0", 0, puzz=Hanoi(10,3), B=200, B_val=50, K=2**10, C=1, CC=10, eps=0.07, conv_point_offs=2) Total: 10000 iterations and 342 convergences
-#Hanoi_10_3 train_deepcubea("DNN_reduced_0", 0, puzz=Hanoi(10,3), B=200, B_val=50,M=100000, K=2**10, C=1, CC=10, eps=0.1, conv_point_offs=2) 12084 iterations = 2.416.800 convergence point: 842
-#Hanoi_10_3 train_deepcubea("DNN_0", 0, puzz=Hanoi(10,3), B=200, B_val=40, K=2**10,M=100000, C=2, CC=10, eps=0.1, conv_point_offs=2) 11238 iterations = 2.247.600 convergence point: 506
-#Hanoi_10_3 train_deepcubea("DNN_reduced_0", 0, puzz=Hanoi(10,3), B=200, B_val=50, K=2**10, C=1, CC=10, eps=0.5, conv_point_offs=2) 3572 iterations = 714.400 convergence point: 1011 
-#Cube3 with mejora K=30, initial_conv_point=1, B=10020, B_val=1020, K=K, M=10000, C=50, eps=0.05
 def train_deepcubea(model_name, iteration, save_path = "saved/", puzz = Cube(3), initial_conv_point=1, B=10020, B_val=1020, K=30, M=10000, C=50, CC=1, eps=0.05, conv_point_offs=1): 
-    """ EXPLICAR ARGS
-    """
+
     set_seeds(42)
     model = nn.model_factory(model_name, input_shape=puzz.get_state_size())
     model.summary()
@@ -145,6 +120,3 @@ def train_deepcubea(model_name, iteration, save_path = "saved/", puzz = Cube(3),
         losses = nn.load_losses(model.name, str(puzz), iteration, save_path)
     train(model, puzz, save_path, initial_conv_point, initial_it=iteration+1, losses=losses, B=B, B_val=B_val, K=K, M=M, C=C, CC=CC, eps=eps, conv_point_offs=conv_point_offs,lr=0.0002)
     
-# The output of j θ ( s ) is set to 0 if s is the goal state
-# Problem: training initial state
-

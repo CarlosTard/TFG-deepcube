@@ -4,22 +4,6 @@ import os
 import time
 from training import Dataset
 
-def clear():
-    os.system('clear' if os.name =='posix' else 'cls')
-    print("\n"*10)
-
-# f(x) = lambda * g(x) + heuristic(x)
-# Expanding N lowest cost nodes in parallel
-# OPEN (priority queue)
-# CLOSED when node is expanded. Children that are not in CLOSED are added to OPEN
-# if we encounter a node x that is already in CLOSED, and if x has a lower path cost
-#   than the node that is already in CLOSED, we remove that node from CLOSED and
-#   add x to OPEN
-
-# OPEN priority queue
-# Costs: dict with state -> (cost, action, parent_state?) (the action from parent_state to state)
-
-
 def bwas(puzzle, state_0, h, N=5, lamda=1, n_processes=4): 
     open_states = PriorityQueue()
     found = False
@@ -61,7 +45,7 @@ def bwas(puzzle, state_0, h, N=5, lamda=1, n_processes=4):
                 key = puzzle.hash_state(child)
                 if not key in g_score or g_score[key][0] > new_g_score: # PriorityQueue can't update priorities, so this adds repeated states
                     g_score[key] = (new_g_score, a)
-                    open_states.put((lamda*new_g_score + child_h, count, child))
+                    open_states.put((lamda*new_g_score + child_h, count, child)) # f(x) = lambda * g(x) + heuristic(x)
                     count += 1
             i += num_possible_actions
         
@@ -75,13 +59,4 @@ def bwas(puzzle, state_0, h, N=5, lamda=1, n_processes=4):
         _, a = g_score[puzzle.hash_state(state)]
     print(f"     Expanded {num_expanded} states")
     return length, actions[::-1]
-    
-def animation(puzzle, state, actions):
-    for a in actions:
-        clear()
-        print(puzzle.state_str(state))
-        state = puzzle.action(state, a)
-        time.sleep(1)
-    clear()
-    print(puzzle.state_str(state))
-    time.sleep(1)
+

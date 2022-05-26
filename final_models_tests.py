@@ -16,7 +16,7 @@ from scrambled_states import get_scrambled_deepcubea, get_scrambled_deepcube
 from sklearn.metrics import mean_absolute_error
 from tensorflow.keras.losses import MeanSquaredError as MSE
 
-from bwas import bwas, animation
+from bwas import bwas
 optimal_2, optimal_dict = None, None
 
 """ BWAS Tests """
@@ -55,8 +55,6 @@ def test_BWAS_against_optimal(model, puzz, num_tests=10000, K=30, N=5, lamda=0.7
         true_vals.append(optimal_2([state])[0])
         pred_vals.append(length)
         assert(true_vals[-1] <= pred_vals[-1])
-        # ~ if true_vals[-1] != pred_vals[-1]:
-            # ~ print(true_vals[-1], pred_vals[-1])
         true_positives_per_value[true_vals[-1]] += true_vals[-1] == pred_vals[-1]
         states_per_value[true_vals[-1]] += 1
         if i % (num_tests//10) == 0:

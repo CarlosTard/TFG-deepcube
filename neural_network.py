@@ -19,11 +19,6 @@ def residual_block(x_input, layers_resblock, resblock_layer_size, batch_norm):
     x = layers.ReLU()(x)
     return x
 
-"""
-Total params: 15,471,001
-Trainable params: 15,443,001
-Non-trainable params: 28,000
-"""
 def _nn_model(name, input_shape=324, first_layers_neurons=(5000,1000), n_resblocks=4, layers_resblock=2, batch_norm=True):
     inputs = keras.Input(shape=input_shape)
     x = inputs
